@@ -1,0 +1,9 @@
+go 1.18
+
+replace (
+	golang.org/x/crypto => /Users/liguo/go/src/github.com/forcodedancing/crypto
+)
+
+use .
+
+// this file should be kept in local, do not push to git repo
